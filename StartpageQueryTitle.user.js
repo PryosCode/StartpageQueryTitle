@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        StartpageQueryTitle
-// @version     1.0
+// @version     1.1
 // @description Startpage.com Search Engine Title Changer
 // @author      PryosCode
 // @namespace   https://github.com/PryosCode/StartpageQueryTitle
