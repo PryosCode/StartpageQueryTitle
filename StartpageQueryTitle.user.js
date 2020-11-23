@@ -17,5 +17,5 @@
 
 const q = document.getElementById("q");
 if(q !== null && q.value !== "") {
-    document.title = document.getElementById("q").value + " - Startpage.com";
+    document.title = q.value + " - Startpage.com";
 }
