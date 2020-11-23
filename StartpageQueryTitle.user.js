@@ -11,6 +11,11 @@
 // @downloadURL https://github.com/PryosCode/StartpageQueryTitle/raw/master/StartpageQueryTitle.user.js
 // @license     MIT
 // @copyright   Copyright (C) 2020 PryosCode
-// @run-at      document-end
-// @match       https://www.startpage.com/*
+// @run-at      document-start
+// @match       https://*.startpage.com/*
 // ==/UserScript==
+
+const q = document.getElementById("q");
+if(q !== null && q.value !== "") {
+    document.title = document.getElementById("q").value + " - Startpage.com";
+}
