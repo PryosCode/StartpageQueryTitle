@@ -11,7 +11,7 @@
 // @downloadURL https://github.com/PryosCode/StartpageQueryTitle/raw/master/StartpageQueryTitle.user.js
 // @license     MIT
 // @copyright   Copyright (c) 2020 PryosCode
-// @run-at      document-start
+// @run-at      document-end
 // @match       https://*.startpage.com/*
 // ==/UserScript==
 
